@@ -9,4 +9,4 @@ import Data.Double.Conversion.Text
 import Language.Haskell.TH
 
 x :: T.Text
-x = $(runQ [|toShortest pi|])
+x = $(runQ [|T.pack "don't even have to call double-conversion"|])
