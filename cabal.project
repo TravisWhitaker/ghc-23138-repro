@@ -1,0 +1,6 @@
+packages: ./repro.cabal
+
+source-repository-package
+  type: git
+  location: https://github.com/TravisWhitaker/double-conversion
+  tag: c0999e7b7e89336bf0140adb1e453a122b936103

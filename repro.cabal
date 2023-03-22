@@ -11,6 +11,7 @@ library
                , double-conversion
                , template-haskell
                , text
+               , system-cxx-std-lib == 1.0
   exposed-modules: Repro
   default-language: Haskell2010
   hs-source-dirs: src
